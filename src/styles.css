@@ -21,17 +21,18 @@ header{
 
 header h2{
   color: #ffffff;
-  text-shadow:0px 0px 2px #00fff2c9;
+  text-shadow:0px 0px 5px #000000;
 }
 
 div {
   width: 100%;
 }
 
-div a{
-  margin-bottom: 5px;
+li a{
   color: #000000;
-  text-decoration: none; 
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
 }
 
 .row{
@@ -67,7 +68,7 @@ li div{
 }
 
 li{
-  background-color: #ffffff4d;
+  background-color: #aaa6a68a;
 }
 
 ul{
@@ -80,7 +81,7 @@ li button {
   margin: 0 auto;
   background: #ffffff;
   color: #000000;
-  width: 90%;
+  width: 50%;
   margin-bottom: 10px;
 }
 
@@ -99,3 +100,27 @@ button {
   width: 80%;
 }
 
+.inputs input{
+  margin: 18px;
+}
+
+.swal-modal{
+  background-color: #727272ce;
+  width: 30%;
+}
+
+.swal-text,
+.swal-title{
+  color: #ffffff;
+  text-align: center;
+}
+
+.swal-button{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.swal-button:not([disabled]):hover {
+  background-color: #000;
+  color: #ffffff;
+}
