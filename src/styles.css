@@ -2,38 +2,100 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./assets/background.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+header{
+  padding-top: 10px;
+}
+
+header h2{
+  color: #ffffff;
+  text-shadow:0px 0px 2px #00fff2c9;
 }
 
 div {
   width: 100%;
-  margin: 20px;
 }
 
-div li {
-  display: flex;
-  align-items: center;
+div a{
+  margin-bottom: 5px;
+  color: #000000;
+  text-decoration: none; 
 }
 
-div li + li {
-  margin-top: 15px;
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.container{
+  width: 60%;
+  margin-top: 10px;
+  background-color: #9c9c9c98;
+  box-shadow: 0px 0px 10px #000000;
+}
+
+li h4{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #000000;
+}
+
+li h6{
+  text-shadow: 0px 0px 5px #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  display: inline;
+}
+
+li div{
+  margin-bottom: 10px;
+}
+
+li{
+  background-color: #ffffff4d;
+}
+
+ul{
+  list-style-type: none;
+  width: 90%;
+  margin: 10px;
+}
+
+li button {
+  margin: 0 auto;
+  background: #ffffff;
+  color: #000000;
+  width: 90%;
+  margin-bottom: 10px;
 }
 
 button {
-  background: #7159c1;
-  color: #fff;
-  border: 0;
-  padding: 10px 15px;
+  background: #000000;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 0px;
+  padding: 5px 5px;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
+  box-shadow: 0px 0px 5px #000000;
+  width: 80%;
 }
 
-div li button {
-  margin: 0 15px;
-  background: #ca4949;
-}
